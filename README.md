@@ -4,7 +4,7 @@
 ## 具体要做些什么呢？
 1. 大佬们可以将想要实现的项目push到本仓库，具体方式如下：<br>
     第一步：fork本仓库
-    ![fork教程](fork教程.png)
+    ![fork教程](img/how-to-fork.png)
     第二步：克隆到本地
     ```shell
     git clone https://github.com/xxx/simple-java-projs.git
@@ -15,9 +15,10 @@
     git add ./myproj
     git commit -m "这是我的项目，希望大佬们可以帮我实现xxx功能，功能具体内容，请查看项目中的markdown文件。谢谢！"
     git push
-    第四步：在GitHub中发起合并请求，我会不定期查看，然后判断通过与否
     ```
-![推送测试](push.png)
+    第四步：在GitHub中发起合并请求，我会不定期查看，然后判断通过与否
+### 关于如何对自己的项目进行基础push操作，可以参考下面的图片
+![推送测试](img/how-to-push.png)
 
 2. 上传已有的项目代码到这个项目，然后指出在实现过程中，你用到的语法和思路，说说遇到的bug以及修bug的思路和方案
 
@@ -61,5 +62,5 @@ markdown功能强大，支持超链接，能够表示图片、视频、音频、
 2. 
 ---
 <!-- &nbsp;是html的空格符，这里使用它，是因为我需要缩进来保持美观 -->
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这一份markdown文件是我用了半个晚上写出来的，我以前其实并没有写过类似这种提议，所以会有疏漏和不足，但是这个项目是开放的，所以大佬们有什么建议，可以向本项目发起issue，所有参与这个项目的人都能看到这个issue，根据实际情况，这个issue会得到不同参与者的赞同或反对，但无论如何，你的issue都会得到考虑，也有可能会最终并入这个项目，因此，希望各位能多多提issue。
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;实际上，GitHub上的开源项目也是找工作的有力助手，你若是有强力的opensource项目，这个项目得到了多少star，多少会对找工作有点帮助，使用GitHub进行开源项目的实现，也有利于你对GitHub的使用。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这一份markdown文件是我用了半个晚上写出来的，我以前其实并没有写过类似这种提议，所以会有疏漏和不足，但是这个项目是开放的，所以大佬们有什么建议，可以向本项目发起issue，所有参与这个项目的人都能看到这个issue，根据实际情况，这个issue会得到不同参与者的赞同或反对，但无论如何，你的issue都会得到考虑，也有可能会最终并入这个项目，因此，希望各位能多多提issue。<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;实际上，GitHub上的开源项目也是找工作的有力助手，你若是有强力的opensource项目，这个项目得到了多少star，多少会对找工作有点帮助，这似乎是国内公司普遍关注的。使用GitHub进行开源项目的实现，也有利于你对GitHub的使用。
