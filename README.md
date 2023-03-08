@@ -40,8 +40,21 @@ else throw new ArithmeticException("除数b="+b);
 
 3. 如果你的项目存在bug，或者你在实现项目的时候，对于java的类和方法有不懂的，也可以在这里提出，比如：<br>
 > “我不知到在读取用户输入的时候，Scanner和BufferedReader两个类有什么区别，建议用哪一个好？”
+---
+## 项目链接
+markdown功能强大，支持超链接，能够表示图片、视频、音频、markdown等文件，能够在一份markdown文件中，包含其他的markdown文件，具体方式如下：
+```markdown
+[markdown文件名](markdown文件)
+```
+示例为example项目下的readme.md：
+[readme.md](example/readme.md)
 
+鼠标放置在超链接上，按下ctrl在点击鼠标左键，就可以跳转到example目录下的readme.md文件。
+由此，该文件的这一部分区域将用于展示这个仓库有什么项目。
 
-<!-- &nbsp;是html的空格符，这里使用它，是因为我暂时忘了markdown要如何缩进 -->
+1. [简单udp聊天程序](simpleChatter/README.md)
+2. 
+---
+<!-- &nbsp;是html的空格符，这里使用它，是因为我需要缩进来保持美观 -->
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这一份markdown文件是我用了半个晚上写出来的，我以前其实并没有写过类似这种提议，所以会有疏漏和不足，但是这个项目是开放的，所以大佬们有什么建议，可以向本项目发起issue，所有参与这个项目的人都能看到这个issue，根据实际情况，这个issue会得到不同参与者的赞同或反对，但无论如何，你的issue都会得到考虑，也有可能会最终并入这个项目，因此，希望各位能多多提issue。
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;实际上，GitHub上的开源项目也是找工作的有力助手，你若是有强力的opensource项目，这个项目得到了多少star，多少会对找工作有点帮助，使用GitHub进行开源项目的实现，也有利于你对GitHub的使用。
