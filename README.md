@@ -3,15 +3,19 @@
 
 ## 具体要做些什么呢？
 1. 大佬们可以将想要实现的项目push到本仓库，具体方式如下：<br>
-    第一步：克隆本仓库
+    第一步：fork本仓库
+    ![fork教程](fork教程.png)
+    第二步：克隆到本地
     ```shell
-    git clone https://github.com/xyiling/simple-java-projs.git
+    git clone https://github.com/xxx/simple-java-projs.git
+    # 这里的xxx是你的GitHub用户名
     ```
-    第二步：在克隆得到的项目中，增加你自己项目的文件，并通过markdown文件阐述你的想法，比如你想要实现的功能。最终上传到本仓库，具体方式如下：<br>
+    第三步：在克隆得到的项目中，增加你自己项目的文件，并通过markdown文件阐述你的想法，比如你想要实现的功能。最终上传到本仓库，具体方式如下：<br>
     ```shell
     git add ./myproj
     git commit -m "这是我的项目，希望大佬们可以帮我实现xxx功能，功能具体内容，请查看项目中的markdown文件。谢谢！"
     git push
+    第四步：在GitHub中发起合并请求，我会不定期查看，然后判断通过与否
     ```
 ![推送测试](push.png)
 
@@ -44,13 +48,14 @@ else throw new ArithmeticException("除数b="+b);
 ## 项目链接
 markdown功能强大，支持超链接，能够表示图片、视频、音频、markdown等文件，能够在一份markdown文件中，包含其他的markdown文件，具体方式如下：
 ```markdown
-[markdown文件名](markdown文件)
+[markdown文件名](markdown文件链接)
 ```
 示例为example项目下的readme.md：
 [readme.md](example/readme.md)
 
 鼠标放置在超链接上，按下ctrl在点击鼠标左键，就可以跳转到example目录下的readme.md文件。
-由此，该文件的这一部分区域将用于展示这个仓库有什么项目。
+
+由此，这一部分区域将用于展示这个仓库有什么项目。
 
 1. [简单udp聊天程序](simpleChatter/README.md)
 2. 
