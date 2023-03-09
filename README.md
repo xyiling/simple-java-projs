@@ -1,10 +1,10 @@
 # simple-java-projs
 这个仓库用于汇集学习过程中的一些java基础语法和进阶语法，然后由团队合作写项目，balabala，其实我也不会说什么，但大致就是这样的。
 ## 前置条件
-1. [git速成](#编程工具教程/git速成.md)
-2. [markdown进阶](#编程工具教程/markdown语法高级用法总结.md)
+1. [git速成](编程工具教程/git%E9%80%9F%E6%88%90/git%E9%80%9F%E6%88%90.md)
+2. [markdown进阶](编程工具教程/markdown%E8%AF%AD%E6%B3%95%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95%E6%80%BB%E7%BB%93.md)
 ## 具体要做些什么呢？
-1. 大佬们可以将想要实现的项目合并到本仓库，具体方式请参考![git速成](git速成/git%E9%80%9F%E6%88%90.md)：<br>
+1. 大佬们可以将想要实现的项目合并到本仓库，具体方法请参考[git速成](编程工具教程/git%E9%80%9F%E6%88%90/git%E9%80%9F%E6%88%90.md)：<br>
     我会不定期查看合并请求，然后判断通过与否。
 2. 上传已有的项目代码到这个项目，然后指出在实现过程中，你用到的语法和思路，说说遇到的bug以及修bug的思路和方案
 > 例如这样
@@ -32,7 +32,7 @@ else throw new ArithmeticException("除数b="+b);
 > “我不知到在读取用户输入的时候，Scanner和BufferedReader两个类有什么区别，建议用哪一个好？”
 ---
 ## 项目链接
-markdown功能强大，支持超链接，能够表示图片、视频、音频、markdown等文件，能够在一份markdown文件中，包含其他的markdown文件，我写了一份markdown进阶文档，欢迎查看[markdown进阶](#编程工具教程/markdown%E8%AF%AD%E6%B3%95%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95%E6%80%BB%E7%BB%93.md)：
+markdown功能强大，支持超链接，能够表示图片、视频、音频、markdown等文件，能够在一份markdown文件中，包含其他的markdown文件，我写了一份markdown进阶文档，欢迎查看[markdown进阶](编程工具教程/markdown%E8%AF%AD%E6%B3%95%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95%E6%80%BB%E7%BB%93.md)：
 
 1. [简单udp聊天程序](simpleChatter/README.md)
 2. 待更新
