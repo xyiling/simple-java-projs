@@ -1,28 +1,13 @@
 # simple-java-projs
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这个仓库用于汇集学习过程中的一些java基础语法和进阶语法，然后由团队合作写项目，balabala，其实我也不会说什么，但大致就是这样的。
-
+这个仓库用于汇集学习过程中的一些java基础语法和进阶语法，然后由团队合作写项目，balabala，其实我也不会说什么，但大致就是这样的。
+## 前置条件
+1. [git速成](#编程工具教程/git速成.md)
+2. [markdown进阶](#编程工具教程/markdown语法高级用法总结.md)
 ## 具体要做些什么呢？
-1. 大佬们可以将想要实现的项目push到本仓库，具体方式如下：<br>
-    第一步：fork本仓库
-    ![fork教程](img/how-to-fork.png)
-    第二步：克隆到本地
-    ```shell
-    git clone https://github.com/xxx/simple-java-projs.git
-    # 这里的xxx是你的GitHub用户名
-    ```
-    第三步：在克隆得到的项目中，增加你自己项目的文件，并通过markdown文件阐述你的想法，比如你想要实现的功能。最终上传到本仓库，具体方式如下：<br>
-    ```shell
-    git add ./myproj
-    git commit -m "这是我的项目，希望大佬们可以帮我实现xxx功能，功能具体内容，请查看项目中的markdown文件。谢谢！"
-    git push
-    ```
-    第四步：在GitHub中发起合并请求，我会不定期查看，然后判断通过与否
-### 关于如何对自己的项目进行基础push操作，可以参考下面的图片
-![推送测试](img/how-to-push.png)
-
+1. 大佬们可以将想要实现的项目合并到本仓库，具体方式请参考![git速成](git速成/git%E9%80%9F%E6%88%90.md)：<br>
+    我会不定期查看合并请求，然后判断通过与否。
 2. 上传已有的项目代码到这个项目，然后指出在实现过程中，你用到的语法和思路，说说遇到的bug以及修bug的思路和方案
-
-例如这样
+> 例如这样
 
 `除0异常`
 ```java
@@ -43,20 +28,11 @@ else throw new ArithmeticException("除数b="+b);
 ```
 然后根据实际情况编写后续代码
 
-3. 如果你的项目存在bug，或者你在实现项目的时候，对于java的类和方法有不懂的，也可以在这里提出，比如：<br>
+3. 如果你的项目存在bug，或者你在实现项目的时候，对于java的类和方法有不懂的，也可以在这里提出issue，比如：<br>
 > “我不知到在读取用户输入的时候，Scanner和BufferedReader两个类有什么区别，建议用哪一个好？”
 ---
 ## 项目链接
-markdown功能强大，支持超链接，能够表示图片、视频、音频、markdown等文件，能够在一份markdown文件中，包含其他的markdown文件，具体方式如下：
-```markdown
-[markdown文件名](markdown文件链接)
-```
-示例为example项目下的readme.md：
-[readme.md](example/readme.md)
-
-鼠标放置在超链接上，按下ctrl在点击鼠标左键，就可以跳转到example目录下的readme.md文件。
-
-由此，这一部分区域将用于展示这个仓库有什么项目。
+markdown功能强大，支持超链接，能够表示图片、视频、音频、markdown等文件，能够在一份markdown文件中，包含其他的markdown文件，我写了一份markdown进阶文档，欢迎查看[markdown进阶](#编程工具教程/markdown%E8%AF%AD%E6%B3%95%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95%E6%80%BB%E7%BB%93.md)：
 
 1. [简单udp聊天程序](simpleChatter/README.md)
 2. 待更新
