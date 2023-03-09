@@ -4,12 +4,14 @@
 如果你想加入这个开源项目，这些是你需要懂的：
 1. [git速成](编程工具教程/git%E9%80%9F%E6%88%90/git%E9%80%9F%E6%88%90.md)
 2. [markdown进阶](编程工具教程/markdown%E8%AF%AD%E6%B3%95%E9%AB%98%E7%BA%A7%E7%94%A8%E6%B3%95%E6%80%BB%E7%BB%93.md)
+
 如果你只是想看看代码，提提issue，你可以不懂这些东西。
 ## 具体要做些什么呢？
 1. 大佬们可以将想要实现的项目合并到本仓库，具体方法请参考[git速成](编程工具教程/git%E9%80%9F%E6%88%90/git%E9%80%9F%E6%88%90.md)：<br>
     我会不定期查看合并请求，然后判断通过与否。
 2. 上传已有的项目代码到这个项目，然后指出在实现过程中，在你的markdown文件中专门用一部分内容写出你用到的语法和思路，说说遇到的bug以及修bug的思路和方案
 > 例如这样
+
 
 ...
 
@@ -32,10 +34,13 @@ if (b != 0) System.out.println(a / b);
 else throw new ArithmeticException("除数b="+b);
 
 ```
+...
 
 3. 如果你的项目存在bug，或者你在实现项目的时候，对于java的类和方法有不懂的，也可以在markdown中提出，或者前往仓库发布issue，比如：<br>
-> “我不知到在读取用户输入的时候，Scanner和BufferedReader两个类有什么区别，建议用哪一个好？”
-或者：
+> “在读取用户输入的时候，Scanner和BufferedReader两个类有什么区别，建议用哪一个好？”
+
+
+或者在这里提交issue：
 ![提issue](其他文件/%E6%8F%90%E4%BA%A4issue01.png)
 ![提交issue](其他文件/%E6%8F%90%E4%BA%A4issue02.png)
 ---
