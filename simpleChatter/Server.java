@@ -20,13 +20,19 @@ class Server implements Runnable {
     public void run() {
         try {
             while (true) {
+                // 创建一个包用于接收数据，存储到 rawData
                 packet = new DatagramPacket(rawData, 0, rawData.length);
+                // 接收数据
                 socket.receive(packet);
+                // 从 rawData 读数据到 data
                 data = new String(rawData, 0, packet.getLength());
-                System.out.println("接收到来自"+packet.getAddress().getHostName() + "的数据");
-                System.out.println(">> "+data);
+                // 打印数据
+                System.out.println(packet.getAddress().getHostName() + "说：");
+                System.out.println(data);
+                // 断开连接
                 if(data.equals("bye")) break;
             }
+            // 关闭流
             socket.close();
         } catch (IOException e) {
             e.printStackTrace();
